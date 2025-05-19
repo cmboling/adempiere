@@ -47,3 +47,10 @@ jobs:
         run: gradle build
         env:
           ADEMPIERE_LIBRARY_VERSION: 'test-version'
+
+      - name: Running FOSSA CLI
+        run: |
+          curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
+          fossa --version
+          fossa analyze --debug
+
