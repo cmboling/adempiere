@@ -31,6 +31,10 @@ jobs:
   build-app:
     name: Build with gradle
     runs-on: ubuntu-latest
+    
+    env:
+      FOSSA_API_KEY: ${{secrets.FOSSA_API_KEY}}
+
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
