@@ -1,4 +1,4 @@
-# ADempiere  
+# ADempiere
   **Short status**:
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/adempiere/adempiere/3.9.4/total)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/adempiere/adempiere)
